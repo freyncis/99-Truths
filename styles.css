@@ -40,10 +40,10 @@ a:hover {
     align-items: center;
 }
 
-img {
+#main img {
     position: fixed;
     height: auto;
-    width: 100%;
+    min-width: 100%;
 }
 
 h1 {
@@ -87,12 +87,12 @@ h1 {
 }
 
 #motivate-btn:hover {
-    opacity: 0.2;
     cursor: pointer;
 }
 
 #motivate-btn:active {
     background-color: antiquewhite;
+    opacity: 0.5;
 }
 
 .source {
@@ -102,19 +102,4 @@ h1 {
     color: antiquewhite;
     opacity: 0.5;
     font-weight: 300;
-}
-
-@media (hover: hover) {
-    button:hover {
-    font-size: 15px;
-    color: antiquewhite;
-    height: 50px;
-    width: 30ch;
-    max-width: 30ch;
-    border: 0;
-    border-radius: 5px;
-    background: none;
-    border: 1.5px solid rgba(250, 235, 215, 0.29);
-    transition: 0.15s;
-    }
 }
