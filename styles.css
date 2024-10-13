@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+    color: inherit;
+}
+
+a:hover {
+    font-weight: 800;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color: antiquewhite;
+}
+
+#motivate-btn {
+    height: 40px;
+    width: 100rem;
+    max-width: 50%;
+    margin: 10px ;
+}
+
+.phrase-container {
+    width: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phrase-text {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+#motivate-btn {
+    font-size: 15px;
+    color: antiquewhite;
+    height: 50px;
+    width: 30ch;
+    max-width: 30ch;
+    border: 0;
+    border-radius: 5px;
+    background: none;
+    border: 1.5px solid rgba(250, 235, 215, 0.29);
+    transition: 0.15s;
+}
+
+#motivate-btn:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+#motivate-btn:active {
+    background-color: antiquewhite;
+}
+
+.source {
+    font-size: 0.9em;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    color: antiquewhite;
+    opacity: 0.5;
+    font-weight: 300;
+}
